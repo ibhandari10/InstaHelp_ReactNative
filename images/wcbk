@@ -1,0 +1,23 @@
+{/*<View style={{flex:1, alignItems:'center'}}>
+           <Image source={require('./images/tab1_1.png')}/>
+           <Text style={styles.slideCaption}>Security Features</Text>
+           <Text style={styles.slideText}></Text>
+       </View>
+       <View style={{flex:1, alignItems:'center'}}>
+           <Image source={require('./images/tab1_2.png')}/>
+           <Text style={styles.slideCaption}></Text>
+           <Text style={styles.slideText}></Text>
+       </View>
+       <View style={{flex:1, alignItems:'center'}}>
+           <Image source={require('./images/tab1_3.png')}/>
+           <Text style={styles.slideCaption}>Free forever and ever</Text>
+           <Text style={styles.slideText}></Text>
+       </View> */}
+
+
+        -
+
+        -
+
+
+
