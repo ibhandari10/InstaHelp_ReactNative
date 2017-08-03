@@ -30,15 +30,14 @@ const FirstRoute = () =>
             <Text style={[styles.slideText,{fontSize:18,marginTop:5,marginRight:20,marginLeft:20,marginBottom:30}]}>At InstaHelp, we believe that an ideal society is one where the entire community comes together and help each other. While often, to many, help does not reach in time, we have taken upon ourselves this gargantuan task of ensuring that every call of help is answered on time. We strive to reduce the distance between the police and the civilians by connecting them.</Text>
             <Text style={[styles.slideText,{fontSize:25,marginBottom:15}]}>Our Inspiration</Text>
             <Text style={[styles.slideText,{fontSize:18,marginTop:5,marginRight:20,marginLeft:20,marginBottom:20}]}>The crime rate in India is alarmingly high, which is why more and more people are becoming victims. Also the police often takes time reaching at the crime scene, giving the criminal ample amount of time to escape. This lag inspired us to fill in the gap and create a platform where with just a touch, instant help could reach those in need.</Text>
-        <View style={{flex: 1,flexDirection: 'column',justifyContent: 'center',alignItems: 'center'}}>
+            <View style={{flex: 1,flexDirection: 'column',justifyContent: 'center',alignItems: 'center'}}>
 
-            <View style={{marginBottom: 25,marginTop: 25,width:200}}>
-                <RoundedButton onPress={()=>Linking.openURL('mailto:ishita.bhandari10@gmail.com')}>
-                    Contact Us
-                </RoundedButton>
+                <View style={{marginBottom: 25,marginTop: 25,width:200}}>
+                    <RoundedButton onPress={()=>Linking.openURL('mailto:ishita.bhandari10@gmail.com')}>
+                        Contact Us
+                    </RoundedButton>
+                </View>
             </View>
-        </View>
-        <Text style={[styles.slideText,{fontSize:15,color:'black',marginBottom:10}]}>Created By : Ishita Bhandari {"\n"}Powered by: Swati Jain Incubation Center</Text>
         </View>
     </ScrollView>;
 const SecondRoute = () =>
@@ -118,7 +117,7 @@ export default class tabtest extends PureComponent {
     _renderHeader = props => <TabBar {...props} />;
 
     _renderDotIndicator() {
-        return <PagerDotIndicator pageCount={3} dotStyle={{marginBottom: 100}} selectedDotStyle={{marginBottom:100, backgroundColor: '#58b0dc'}} />;
+        return <PagerDotIndicator pageCount={3} dotStyle={{marginBottom: 60}} selectedDotStyle={{marginBottom:60, backgroundColor: '#58b0dc'}} />;
     }
 
     _renderScene = SceneMap({
@@ -139,6 +138,7 @@ export default class tabtest extends PureComponent {
                 <View style={{backgroundColor:'white', justifyContent: 'center', alignItems: 'center'}}>
                   <Image source={require('./images/logo.png')} style={{alignItems: 'center', maxWidth:335 , maxHeight:115}}/>
                   <Text style={styles.slideCaption}> Instant Help, 24 x 7 </Text>
+                  <Text style={[styles.slideText,{fontSize:15,color:'black', marginTop:180}]}>Created By : Ishita Bhandari {"\n"}Powered by: Swati Jain Incubation Center</Text>
                 </View>
                 <View style={{backgroundColor: 'white', justifyContent: 'center', alignItems: 'center'}}>
                   <Image source={require('./images/slider2.png')} style={{height: 128, width:128}}/>
