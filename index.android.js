@@ -100,7 +100,7 @@ const ThirdRoute = () =>
 </ScrollView>;
 
 
-export default class tabtest extends PureComponent {
+export default class instahelp extends PureComponent {
     state = {
         intromode: false,
         index: 0,
@@ -217,4 +217,4 @@ const styles = StyleSheet.create({
 
 });
 
-AppRegistry.registerComponent('tabtest', () => tabtest);
+AppRegistry.registerComponent('instahelp', () => instahelp);
